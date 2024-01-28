@@ -1,0 +1,16 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+header {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: blue;
+  justify-content: center;
+  flex-wrap: nowrap;
+  display: flex;
+  height: 82px;
+  width: auto;
+  line-height: 7px;
+}
