@@ -5,12 +5,35 @@
 /* header */
 header {
   font-weight: bold;
-  font-size: 30px;
-  background-color: blue;
+  color: azure;
+  font-size: 22px;
+  background-color: #1d1d6eea;
   justify-content: center;
   flex-wrap: nowrap;
   display: flex;
-  height: 82px;
+  height: 75px;
   width: auto;
   line-height: 7px;
+}
+
+/* aside styling */
+aside {
+  width: 350px;
+}
+
+input {
+  width: 344px;
+  height: 25px;
+  border-radius: 3px;
+  border-color: grey;
+}
+
+.btn {
+  background-color: rgb(80, 80, 205);
+  color: azure;
+  border: none;
+  border-radius: 3px;
+  width: 350px;
+  height: 25px;
+  margin: 10px 0px 10px 0px;
 }
