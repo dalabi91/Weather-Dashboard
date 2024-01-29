@@ -19,6 +19,7 @@ header {
 /* aside styling */
 aside {
   width: 350px;
+  text-align: center;
 }
 
 input {
@@ -34,6 +35,27 @@ input {
   border: none;
   border-radius: 3px;
   width: 350px;
-  height: 25px;
+  height: 30px;
   margin: 10px 0px 10px 0px;
+}
+
+hr {
+  border-bottom: grey solid;
+}
+
+/* current weather */
+
+#current-weather {
+  border: 2px;
+  border-radius: 3px;
+}
+
+#forecast .card {
+  border: 2px;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
