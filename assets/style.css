@@ -66,10 +66,10 @@ hr {
   font-size: 23px;
 }
 
-#weather-info.col-lg-9.pb-3 {
+/* #weather-info.col-lg-9.pb-3 {
   /* padding-right: 5px; */
-  /* padding-left: 24px; */
-}
+/* padding-left: 24px; */
+
 .card-body {
   background-color: rgb(56, 119, 174);
 }

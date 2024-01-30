@@ -57,96 +57,46 @@
           <div class="list-group" id="history"></div>
         </aside>
 <!-- current weather -->
-    <div class="col-lg-9 pb-3" id="weather-info">
+    <div class="col-lg-9 pb-3 weatherInfo">
       <section id="today" class="mt-3" role="region" aria-live="polite">
-            <div class="card bg-primary">
+            <div class="card bg-primary todays-card">
               <div class="card-body">
-                <p class="date" id="current-date">28/01/2024</p>
+                <p class="date card-info" id="current-date"></p>
                 <div class="container-fluid">
                   <div class="row">
-                    <h2 class="col-lg-4 card-info city mt-5" id="location">Current weather</h2>
+                    <h2 class="col-lg-4 card-info city mt-5" id="location"></h2>
                     <div class="col-lg-4">
                       <img src="" alt="" id="current-weather-icon" />
+                      <p card="description card-info"></p>
                     </div>
-                    <p class="col-lg-4 mt-5 temp" id="temp">18°c</p>
+                    <h3 class="col-lg-4 mt-5 temp card-info" id="temp"></h3>
                   </div>
                 </div>
+                <div class="row">
+                <p class="col-md-6 wind card-info" id="wind"></p>
+                <p class="col-md-6 humidity card-info" id="humidity"></p>
+              </div>
               </div>
       </section>
             
 <!-- next 5 days forecast -->
-  <section id="forecast" class="mt-3"role="region" aria-live="polite">
-    <div class="container-fluid mt-5">              
-      <!-- <div class="col-sm-6 mb-3 mb-sm-0"> -->
-        <h2 class="mb-4">5-Day Forecast:</h2>
-        <div class="row">
-
-          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+  <section id="forecast" class="mt-3"role="region" aria-live="polite">       
+          <!-- <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
             <div class= "card">
               <div class="card-body">
                 <h5 class="card-title">D1</h5>
                 <p class="card-text">icon</p>
                 <p class="card-text">Temp</p>
                 <p class="card-text">Wind</p>
-                    <p class="card-text">Humidity</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class= "card">
-                  <div class="card-body">
-                    <h5 class="card-title">D2</h5>
-                    <p class="card-text">icon</p>
-                    <p class="card-text">Temp</p>
-                    <p class="card-text">Wind</p>
-                    <p class="card-text">Humidity</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class= "card">
-                  <div class="card-body">
-                    <h5 class="card-title">D3</h5>
-                    <p class="card-text">icon</p>
-                    <p class="card-text">Temp</p>
-                    <p class="card-text">Wind</p>
-                    <p class="card-text">Humidity</p>
-                  </div>
-                </div>
-              </div>
-              
-                <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                  <div class= "card">
-                  <div class="card-body">
-                    <h5 class="card-title">D4</h5>
-                    <p class="card-text">icon</p>
-                    <p class="card-text">Temp</p>
-                    <p class="card-text">Wind</p>
-                    <p class="card-text">Humidity</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class= "card">
-                  <div class="card-body">
-                    <h5 class="card-title">D5</h5>
-                    <p class="card-text">icon</p>
-                    <p class="card-text">Temp</p>
-                    <p class="card-text">Wind</p>
-                    <p class="card-text">Humidity</p>
-                  </div>
-                </div>
+                <p class="card-text">Humidity</p>
               </div>
             </div>
-            </div> 
+          </div>  -->
+    </section>            
     </div>
-  </section>            
 </div> 
 </div>
-</div>
+
 
 
     <!-- Day.js -->
