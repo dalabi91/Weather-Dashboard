@@ -1,19 +1,25 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(59, 127, 186);
 }
 
 /* header */
 header {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: azure;
-  font-size: 22px;
+  /* font-size: 22px; */
   background-color: #1d1d6eea;
-  justify-content: center;
-  flex-wrap: nowrap;
+  /* justify-content: center; */
+  /* flex-wrap: nowrap;
   display: flex;
   height: 75px;
   width: auto;
-  line-height: 7px;
+  line-height: 7px; */
 }
 
 /* aside styling */
