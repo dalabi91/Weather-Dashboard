@@ -22,11 +22,8 @@ aside {
   text-align: center;
 }
 
-input {
-  width: 344px;
-  height: 25px;
-  border-radius: 3px;
-  border-color: grey;
+.input-group {
+  flex-direction: column;
 }
 
 .btn {
@@ -43,19 +40,10 @@ hr {
   border-bottom: grey solid;
 }
 
-/* current weather */
-
-#current-weather {
-  border: 2px;
-  border-radius: 3px;
+#weather-info.col-lg-9.pb-3 {
+  /* padding-right: 5px; */
+  padding-left: 24px;
 }
-
-#forecast .card {
-  border: 2px;
-  border-radius: 3px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.card-body {
+  background-color: rgb(56, 119, 174);
 }
