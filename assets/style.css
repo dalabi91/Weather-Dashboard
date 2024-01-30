@@ -41,8 +41,7 @@ aside {
 .input-group {
   flex-direction: column;
 }
-
-.search-button {
+.btn {
   background-color: rgb(80, 80, 205);
   color: azure;
   border-radius: 3px;
