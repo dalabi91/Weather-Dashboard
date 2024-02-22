@@ -34,7 +34,7 @@ function displayCurrentWeather(data) {
   const cityName = data.city.name;
   const currentWeather = data.list[0];
 
-  const temperature = currentWeather.main.temp;
+  const temperature = Math.round(currentWeather.main.temp);
   const humidity = currentWeather.main.humidity;
   const windSpeed = currentWeather.wind.speed;
   const weatherDescription = currentWeather.weather[0].description;
@@ -91,6 +91,8 @@ function displayForecast(data) {
     const { dt_txt, main, weather } = day;
     const { temp, humidity } = main;
     const { icon } = weather[0];
+    // Round temperature to the nearest whole number
+    const roundedTemp = Math.round(temp);
 
     const forecastColumn = document.createElement("div");
     forecastColumn.classList.add("col-md-2");
@@ -99,7 +101,7 @@ function displayForecast(data) {
     dateHeader.textContent = formatDate(dt_txt);
 
     const temperatureParagraph = document.createElement("p");
-    temperatureParagraph.textContent = `Temperature: ${temp}°C`;
+    temperatureParagraph.textContent = `Temperature: ${roundedTemp}°C`;
 
     const humidityParagraph = document.createElement("p");
     humidityParagraph.textContent = `Humidity: ${humidity}%`;
