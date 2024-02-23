@@ -66,51 +66,6 @@ $(document).ready(function () {
     );
   }
 
-  // Function to display 5-day forecast
-
-  // function displayForecast(data) {
-  //   const forecastList = data.list.slice(1, 6); // Slice to get next 5 days
-  //   const forecastContainer = $("#forecast");
-  //   forecastContainer.html(""); // Clear previous content
-
-  //   const forecastHeader = $("<h2>").text("5-Day Forecast");
-  //   forecastContainer.append(forecastHeader);
-
-  //   const forecastRow = $("<div>").addClass("row");
-  //   forecastContainer.append(forecastRow);
-
-  //   forecastList.forEach((day) => {
-  //     const { dt_txt, main, weather } = day;
-  //     const { temp, humidity } = main;
-  //     const { icon } = weather[0];
-  //     // Round temperature to the nearest whole number
-  //     const roundedTemp = Math.round(temp);
-
-  //     const forecastColumn = $("<div>").addClass("col-md-2");
-
-  //     const dateHeader = $("<h4>").text(formatDate(dt_txt));
-
-  //     const temperatureParagraph = $("<p>").text(
-  //       `Temperature: ${roundedTemp}°C`
-  //     );
-
-  //     const humidityParagraph = $("<p>").text(`Humidity: ${humidity}%`);
-
-  //     const weatherIcon = $("<img>")
-  //       .attr("src", `http://openweathermap.org/img/wn/${icon}.png`)
-  //       .attr("alt", "Weather Icon");
-
-  //     forecastColumn.append(
-  //       dateHeader,
-  //       temperatureParagraph,
-  //       humidityParagraph,
-  //       weatherIcon
-  //     );
-
-  //     forecastRow.append(forecastColumn);
-  //   });
-  // }
-
   function displayForecast(data) {
     const forecastList = data.list.slice(1, 6); // Slice to get next 5 days
     const forecastContainer = $("#forecast");

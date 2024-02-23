@@ -12,19 +12,10 @@ body {
 header {
   color: azure;
   background-color: #4a35afea;
-  /* font-weight: bold; */
-  /* font-size: 22px; */
-  /* justify-content: center; */
-  /* flex-wrap: nowrap;
-  display: flex;
-  height: 75px;
-  width: auto;
-  line-height: 7px; */
 }
 
 /* aside styling */
 aside {
-  /* width: 350px; */
   text-align: center;
 }
 
@@ -65,10 +56,11 @@ hr {
   font-size: 23px;
 }
 
-/* #weather-info.col-lg-9.pb-3 {
-  /* padding-right: 5px; */
-/* padding-left: 24px; */
-
+#weather-info.col-lg-9.pb-3 {
+  padding-right: 5px;
+  padding-left: 24px;
+}
 .card-body {
   background-color: rgb(56, 119, 174);
+  height: 290px;
 }
